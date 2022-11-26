@@ -1,0 +1,10 @@
+
+body { background-color: black !important; color:white; text-align:center; }
+
+/* Hyperlinks */
+a { text-decoration:none !important; color:aqua !important; }
+a:visited { color:initial; }
+
+/* Headers */
+h2 { font-size:200%; padding:1%; }
+h2 .fa { color:white !important; }
