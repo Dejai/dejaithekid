@@ -10,11 +10,10 @@ a:visited { color:initial; }
 
 /* Register page */
 #setupAccountButton { background-color: blue; color:white;}
-.message { font-size: 1.15rem;}
+.message { font-size: 1.5rem;}
 .message.note { font-style: italic; width:80%; margin:auto; font-size: 1rem;}
 
 /* Larger devices */
 @media only screen and (min-width: 900px) {
-    .message { font-size: 2rem; }
     .message.note { font-size: 1.3rem; }
 }
