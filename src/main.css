@@ -6,8 +6,9 @@ a { text-decoration:none !important; color:aqua !important; }
 a:visited { color:initial; }
 
 /* Headers */
-h2 { font-size:200%; padding:0.5%; }
+.dtkAction { font-size: 2rem; }
 
+/* Register page */
 #setupAccountButton { background-color: blue; color:white;}
 .message { font-size: 1.15rem;}
 .message.note { font-style: italic; width:80%; margin:auto; font-size: 1rem;}
