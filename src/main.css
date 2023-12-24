@@ -11,4 +11,4 @@ a:visited { color:initial; }
 /* Register page */
 #setupAccountButton { background-color: blue; color:white;}
 .message { font-size: 1.5rem;}
-.message.note { font-style: italic; width:80%; margin:auto; font-size: 1rem; }
+.message.note { font-style: italic; width:80%; margin:auto; font-size: 1.2em; }
