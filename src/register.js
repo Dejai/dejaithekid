@@ -5,5 +5,7 @@ MyDom.ready( async () => {
     var isLoggedIn = loginDetails?.IsLoggedIn ?? false;
     if(isLoggedIn){
         MyUrls.navigateTo("/");
+    } else { 
+        MyDom.showContent(".showOnRegister");
     }
 });
