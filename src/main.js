@@ -1,6 +1,5 @@
 // Once doc is ready
 MyDom.ready( async () => {
-
     // Get the login details
     var loginDetails = await MyAuth.onGetLoginDetails();
     var isLoggedIn = loginDetails?.IsLoggedIn ?? false;
@@ -8,9 +7,4 @@ MyDom.ready( async () => {
     var authAction = (loginDetails.IsLoggedIn) ? "logout" : "login";
     MyDom.setContent("#loginAction", { "innerHTML": actionText });
     MyDom.setContent("#loginAction", { "data-auth-action": authAction });
-
-    var action = MyUrls.getSearchParam("action") ?? "";
-    if(action == "register" && !isLoggedIn){
-        MyAuth.onAuthAction("login");
-    }
 });

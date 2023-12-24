@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Dejai The Kid</title>
-
+    <title>Dejai The Kid - Register</title>
     <!-- Base Path -->
-    <base href="./">
-
+    <base href="../">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="https://dejai.github.io/scripts/css/dtk-styles.css">
@@ -14,21 +12,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1>Dejai The Kid</h1>
-    <p id="loginAction" data-auth-action="logout" onclick="MyAuth.onAuthAction(this.getAttribute('data-auth-action'))"></p>
+    <h1>Dejai The Kid <br/> <span style="font-size:70%;">Register</span></h1>
     <hr/>
-    <h2>
-        <a href="https://adventures.dejaithekid.com" target="_self">
-            <i class="fa-solid fa-person-walking" style="color:white !important;"></i>
-            Adventures
-        </a>
-    </h2>
-    <h2>
-        <a href="games/" target="_self">
-            <i class="fa-solid fa-trophy" style="color:white !important;"></i>
-            Games
-        </a>
-    </h2>
+    <div id="registerInstructions">
+        <p class="message">Use this page to register an account.</p>
+        <p class="message">You would need an account to access any protected content on this site.</p>
+        <p class="sub-message"><br/>Note: you can use Gmail single sign-on or a basic account with name & phone number</p>
+    </div>
+    <p>
+        <button id="setupAccountButton" style="padding:1%;" class="dtk-button dtk-button-round-corners" onclick="MyAuth.onAuthAction('login')">Setup Account</button>
+    </p>
 </body>
 <!-- Common Scripts -->
 <script src="https://dejai.github.io/scripts/js/v2/my.js?v=1.1.0"></script>

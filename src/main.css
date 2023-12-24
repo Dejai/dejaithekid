@@ -7,3 +7,6 @@ a:visited { color:initial; }
 
 /* Headers */
 h2 { font-size:200%; padding:0.5%; }
+
+.sub-message { font-style:italic; font-size:80%; width:80%; margin:auto; }
+#setupAccountButton { background-color: blue; color:white;}
