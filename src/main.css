@@ -9,6 +9,10 @@ a:visited { color:initial; }
 .dtkAction { font-size: 2rem; }
 
 /* Register page */
-#setupAccountButton { background-color: blue; color:white;}
+#setupAccountButton { background-color: blue; color:white; padding: 2%; }
 .message { font-size: 1.5rem;}
 .message.note { font-style: italic; width:80%; margin:auto; font-size: 1.2em; }
+
+@media only screen and (min-width: 900px) {
+    #setupAccountButton { padding: 1%; }
+}
