@@ -8,5 +8,11 @@ a:visited { color:initial; }
 /* Headers */
 h2 { font-size:200%; padding:0.5%; }
 
-.sub-message { font-style:italic; font-size:80%; width:80%; margin:auto; }
 #setupAccountButton { background-color: blue; color:white;}
+.message { font-size: 1.15rem;}
+.message.note { font-style: italic; width:80%; margin:auto; }
+
+/* Larger devices */
+@media only screen and (min-width: 900px) {
+    .message { font-size: 2rem; }
+}
