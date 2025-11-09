@@ -1,0 +1,244 @@
+/* Margin & Padding */
+.margin-auto {
+  margin: auto;
+}
+.margin-none {
+  margin: 0px;
+}
+.margin-0 {
+  margin: 0px;
+}
+.margin-1 {
+  margin: 1%;
+}
+.margin-2 {
+  margin: 2%;
+}
+.margin-0-1 {
+  margin: 0% 1%;
+}
+.margin-top-0 {
+  margin-top: 0px;
+}
+.margin-top-1 {
+  margin-top: 1%;
+}
+.margin-top-2 {
+  margin-top: 2%;
+}
+.margin-top-3 {
+  margin-top: 3%;
+}
+.margin-top-4 {
+  margin-top: 4%;
+}
+.margin-top-5 {
+  margin-top: 5%;
+}
+.margin-top-6 {
+  margin-top: 6%;
+}
+.margin-top-7 {
+  margin-top: 7%;
+}
+.margin-right-1 {
+  margin-right: 1%;
+}
+.margin-right-2 {
+  margin-right: 2%;
+}
+.margin-right-3 {
+  margin-right: 3%;
+}
+.margin-bottom-1 {
+  margin-bottom: 1%;
+}
+.margin-bottom-2 {
+  margin-bottom: 2%;
+}
+.margin-bottom-3 {
+  margin-bottom: 3%;
+}
+.margin-bottom-4 {
+  margin-bottom: 4%;
+}
+.margin-bottom-5 {
+  margin-bottom: 5%;
+}
+.margin-bottom-6 {
+  margin-bottom: 6%;
+}
+.margin-bottom-7 {
+  margin-bottom: 7%;
+}
+.margin-bottom-10 {
+  margin-bottom: 10%;
+}
+.margin-left-1 {
+  margin-left: 1%;
+}
+.margin-left-2 {
+  margin-left: 2%;
+}
+.margin-left-3 {
+  margin-left: 3%;
+}
+.margin-left-4 {
+  margin-left: 4%;
+}
+.margin-left-5 {
+  margin-left: 5%;
+}
+
+/* Media - Medium */
+@media screen and (min-width: 768px) {
+  .margin-top-1-tablet {
+    margin-top: 1%;
+  }
+  .margin-top-2-tablet {
+    margin-top: 2%;
+  }
+  .margin-top-3-tablet {
+    margin-top: 3%;
+  }
+  .margin-top-4-tablet {
+    margin-top: 4%;
+  }
+  .margin-top-5-tablet {
+    margin-top: 5%;
+  }
+
+  .margin-bottom-1-tablet {
+    margin-bottom: 1%;
+  }
+  .margin-bottom-2-tablet {
+    margin-bottom: 2%;
+  }
+  .margin-bottom-3-tablet {
+    margin-bottom: 3%;
+  }
+  .margin-bottom-4-tablet {
+    margin-bottom: 4%;
+  }
+  .margin-bottom-5-tablet {
+    margin-bottom: 5%;
+  }
+  .margin-bottom-6-tablet {
+    margin-bottom: 6%;
+  }
+  .margin-bottom-7-tablet {
+    margin-bottom: 7%;
+  }
+}
+
+/* Laptops */
+@media (min-width: 1024px) {
+  .margin-top-1-laptop {
+    margin-top: 1%;
+  }
+  .margin-top-2-laptop {
+    margin-top: 2%;
+  }
+  .margin-top-3-laptop {
+    margin-top: 3%;
+  }
+  .margin-top-4-laptop {
+    margin-top: 4%;
+  }
+  .margin-top-5-laptop {
+    margin-top: 5%;
+  }
+  .margin-top-6-laptop {
+    margin-top: 6%;
+  }
+  .margin-top-7-laptop {
+    margin-top: 7%;
+  }
+  .margin-top-8-laptop {
+    margin-top: 8%;
+  }
+  .margin-top-9-laptop {
+    margin-top: 9%;
+  }
+  .margin-top-10-laptop {
+    margin-top: 10%;
+  }
+
+  .margin-bottom-1-laptop {
+    margin-bottom: 1%;
+  }
+  .margin-bottom-2-laptop {
+    margin-bottom: 2%;
+  }
+  .margin-bottom-3-laptop {
+    margin-bottom: 3%;
+  }
+  .margin-bottom-4-laptop {
+    margin-bottom: 4%;
+  }
+  .margin-bottom-5-laptop {
+    margin-bottom: 5%;
+  }
+  .margin-bottom-6-laptop {
+    margin-bottom: 6%;
+  }
+  .margin-bottom-7-laptop {
+    margin-bottom: 7%;
+  }
+}
+
+/* Larger Laptops/Desktops */
+@media (min-width: 1600px) {
+  .margin-top-1-desktop {
+    margin-top: 1%;
+  }
+  .margin-top-2-desktop {
+    margin-top: 2%;
+  }
+  .margin-top-3-desktop {
+    margin-top: 3%;
+  }
+  .margin-top-4-desktop {
+    margin-top: 4%;
+  }
+  .margin-top-5-desktop {
+    margin-top: 5%;
+  }
+  .margin-top-6-desktop {
+    margin-top: 6%;
+  }
+  .margin-top-7-desktop {
+    margin-top: 7%;
+  }
+  .margin-top-8-desktop {
+    margin-top: 8%;
+  }
+  .margin-top-9-desktop {
+    margin-top: 9%;
+  }
+  .margin-top-10-desktop {
+    margin-top: 10%;
+  }
+
+  .margin-bottom-1-desktop {
+    margin-bottom: 1%;
+  }
+  .margin-bottom-2-desktop {
+    margin-bottom: 2%;
+  }
+  .margin-bottom-3-desktop {
+    margin-bottom: 3%;
+  }
+  .margin-bottom-4-desktop {
+    margin-bottom: 4%;
+  }
+  .margin-bottom-5-desktop {
+    margin-bottom: 5%;
+  }
+  .margin-bottom-6-desktop {
+    margin-bottom: 6%;
+  }
+  .margin-bottom-7-desktop {
+    margin-bottom: 7%;
+  }
+}

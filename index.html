@@ -1,44 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <title>Dejai The Kid</title>
 
     <!-- Base Path -->
-    <base href="./">
+    <base href="./" />
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" type="text/css" href="https://dejai.github.io/scripts/css/dtk-styles.css">
-    <link rel="stylesheet" type="text/css" href="src/main.css?v=1.1.8">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <h1>Dejai The Kid</h1>
-    <p id="loginAction" data-auth-action="logout" onclick="MyAuth.onAuthAction(this.getAttribute('data-auth-action'))">
-        &nbsp;
-    </p>
-    <hr/>
-    <h2 class="dtkAction">
-        <a href="https://adventures.dejaithekid.com" target="_self">
-            <i class="fa-solid fa-person-walking" style="color:white !important;"></i>
-            Adventures
-        </a>
-    </h2>
-    <h2 class="dtkAction">
-        <a href="games/" target="_self">
-            <i class="fa-solid fa-trophy" style="color:white !important;"></i>
-            Games
-        </a>
-    </h2>
-    <!-- <h2 class="dtkAction">
-        <a href="sugarhead/" target="_self">
-            <i class="fa-solid fa-trophy" style="color:white !important;"></i>
-            Sugar Head
-        </a>
-    </h2> -->
-</body>
-<!-- Common Scripts -->
-<script src="https://dejai.github.io/scripts/js/v2/my.js?v=1.1.8"></script>
-<script src="./src/main.js?v=1.1.8"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="src/main.css?v=2.0.0" />
+    <link rel="stylesheet" type="text/css" href="src/flex.css?v=2.0.0" />
+    <link rel="stylesheet" type="text/css" href="src/borders.css?v=2.0.0" />
+    <link rel="stylesheet" type="text/css" href="src/paddings.css?v=2.0.0" />
+    <link rel="stylesheet" type="text/css" href="src/hovers.css?v=2.0.0" />
+    <link rel="stylesheet" type="text/css" href="src/colors.css?v=2.0.0" />
+    <link rel="stylesheet" type="text/css" href="src/width.css?v=2.0.0" />
+    <link rel="stylesheet" type="text/css" href="src/fonts.css?v=2.0.0" />
+    <link rel="stylesheet" type="text/css" href="src/margins.css?v=2.0.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body class="bg-color-navy color-white">
+    <div class="flex-column flex-gap-20 width-100 width-50-tablet margin-auto">
+      <!-- Menu Bar -->
+      <div class="menu-bar padding-2 bg-color-darkblue">
+        <h1>DejaiTheKid</h1>
+      </div>
+
+      <!-- Main Content -->
+      <div
+        id="mainContent"
+        class="flex-row flex-align-center flex-wrap flex-justify-center flex-gap-50 width-70-tablet"
+      >
+        <h1 class="hover-scale-3 flex-column">
+          Games
+          <a href="https://games.dejaithekid.com" class="font-size-200">
+            <img
+              src="./src/games.png"
+              class="custom-shadow aspect-ratio-square"
+              style="max-width: 200px"
+            />
+          </a>
+        </h1>
+        <h1 class="hover-scale-3 pointer flex-column">
+          Memories <br />
+          <a href="https://memories.dejaithekid.com">
+            <img
+              src="./src/memories.png"
+              class="custom-shadow aspect-ratio-square"
+              style="max-width: 200px"
+            />
+          </a>
+        </h1>
+      </div>
+    </div>
+  </body>
+  <!-- Common Scripts -->
+  <script src="https://dejai.github.io/scripts/js/v2/my.js?v=2.0.0"></script>
+  <script src="./src/main.js?v=2.0.0"></script>
 </html>

@@ -1,0 +1,97 @@
+/* Common color items */
+.color-limegreen {
+  color: limegreen;
+}
+.color-green {
+  color: #32cd32;
+}
+.color-darkblue {
+  color: red;
+}
+.color-darkgreen {
+  color: green;
+}
+.color-blue {
+  color: #007fff;
+}
+.color-lightblue {
+  color: #0ea5e9;
+}
+.color-red {
+  color: red;
+}
+.color-orange {
+  color: darkorange;
+}
+.color-black {
+  color: black;
+}
+.color-white {
+  color: white;
+}
+.color-floral-white {
+  color: #fffaf0;
+}
+.color-gray {
+  color: #404040;
+}
+.color-lightgray {
+  color: lightgray;
+}
+.color-gold {
+  color: gold;
+}
+.color-navy {
+  color: #243a6b;
+}
+.color-verylightgray {
+  color: #f0f0f0;
+}
+
+/* Background-color items */
+.bg-color-green {
+  background-color: limegreen;
+}
+.bg-color-blue {
+  background-color: #007fff;
+}
+.bg-color-navy {
+  background-color: #243a6b;
+}
+/* .bg-color-darkblue { background-color: #031725;} */
+.bg-color-darkblue {
+  background-color: #030b25;
+}
+.bg-color-lightblue {
+  background-color: #0ea5e9;
+}
+.bg-color-darkgreen {
+  background-color: green;
+}
+.bg-color-red {
+  background-color: red;
+}
+.bg-color-orange {
+  background-color: orange;
+}
+.bg-color-darkorange {
+  background-color: #ae7100;
+}
+.bg-color-black {
+  background-color: black;
+}
+.bg-color-white {
+  background-color: white;
+}
+.bg-color-floral-white {
+  background-color: #fffaf0;
+}
+.bg-color-gray {
+  background-color: #404040;
+}
+.bg-color-lightgray {
+  background-color: lightgray;
+}
+.bg-color-darkgray {
+  background-color: #222222;
+}

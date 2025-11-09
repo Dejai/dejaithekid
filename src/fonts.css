@@ -1,0 +1,94 @@
+/* Fonts */
+@font-face {
+  font-family: "Lora Regular";
+  src: url("/fonts/Lora/static/Lora-Regular.ttf");
+}
+.font-lora-regular {
+  font-family: "Lora Regular";
+}
+
+@font-face {
+  font-family: "Lora MediumItalic";
+  src: url("/fonts/Lora/static/Lora-MediumItalic.ttf");
+}
+.font-lora-mediumitalic {
+  font-family: "Lora MediumItalic";
+}
+
+/* Font Size (using rem; 100 = 1rem) */
+.font-size-300 {
+  font-size: 3rem;
+}
+.font-size-200 {
+  font-size: 2rem;
+}
+.font-size-150 {
+  font-size: 1.5rem;
+}
+.font-size-140 {
+  font-size: 1.4rem;
+}
+.font-size-120 {
+  font-size: 1.2rem;
+}
+.font-size-100 {
+  font-size: 1rem;
+}
+.font-size-90 {
+  font-size: 0.9rem;
+}
+.font-size-80 {
+  font-size: 0.8rem;
+}
+.font-size-70 {
+  font-size: 0.7rem;
+}
+.font-size-60 {
+  font-size: 0.6rem;
+}
+.font-size-50 {
+  font-size: 0.5rem;
+}
+.font-size-20 {
+  font-size: 0.2rem;
+}
+
+/* Laptops */
+@media (min-width: 1024px) {
+  .font-size-300-desktop {
+    font-size: 3rem;
+  }
+  .font-size-200-desktop {
+    font-size: 2rem;
+  }
+  .font-size-150-desktop {
+    font-size: 1.5rem;
+  }
+  .font-size-140-desktop {
+    font-size: 1.4rem;
+  }
+  .font-size-120-desktop {
+    font-size: 1.2rem;
+  }
+  .font-size-100-desktop {
+    font-size: 1rem;
+  }
+  .font-size-90-desktop {
+    font-size: 0.9rem;
+  }
+  .font-size-80-desktop {
+    font-size: 0.8rem;
+  }
+  .font-size-70-desktop {
+    font-size: 0.7rem;
+  }
+  .font-size-60-desktop {
+    font-size: 0.6rem;
+  }
+  .font-size-50-desktop {
+    font-size: 0.5rem;
+  }
+  .font-size-20-desktop {
+    font-size: 0.2rem;
+  }
+}

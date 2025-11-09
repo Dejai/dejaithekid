@@ -1,0 +1,194 @@
+/* FLEX Styles */
+.flex-row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-column-desktop {
+  display: flex;
+  flex-direction: row;
+} /* this is intentionally row on mobile, and only column on desktop */
+.flex-flip-col-to-row {
+  display: flex;
+  flex-direction: column;
+}
+.flex-flip-row-to-col {
+  display: flex;
+  flex-direction: row;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.flex-space-between {
+  justify-content: space-between;
+}
+.flex-justify-space-between {
+  justify-content: space-between;
+}
+.flex-justify-space-evenly {
+  justify-content: space-evenly;
+}
+.flex-justify-columns-3 > * {
+  width: calc(100% / 3);
+}
+.flex-justify-left {
+  justify-content: left;
+}
+.flex-justify-right {
+  justify-content: right;
+}
+.flex-justify-end {
+  justify-content: end;
+}
+.flex-justify-center {
+  justify-content: center;
+}
+.flex-align-start {
+  align-items: start;
+}
+.flex-align-center {
+  align-items: center;
+}
+.flex-align-stretch {
+  align-items: stretch;
+}
+.flex-align-right {
+  align-items: end;
+}
+.flex-align-end {
+  align-items: end;
+}
+.flex-gap-5 {
+  gap: 5px;
+}
+.flex-gap-10 {
+  gap: 10px;
+}
+.flex-gap-15 {
+  gap: 15px;
+}
+.flex-gap-20 {
+  gap: 20px;
+}
+.flex-gap-25 {
+  gap: 25px;
+}
+.flex-gap-30 {
+  gap: 30px;
+}
+.flex-gap-50 {
+  gap: 50px;
+}
+.flex-break {
+  flex-basis: 100%;
+  height: 0;
+}
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+.flex-grow-1 {
+  flex-grow: 1;
+}
+.flex-hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  width: 100%;
+  margin: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .flex-row-tablet {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .flex-justify-left-tablet {
+    justify-content: left;
+  }
+
+  .flex-flip-col-to-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .flex-flip-row-to-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Flex gaps */
+  .flex-gap-5-laptop {
+    gap: 5px;
+  }
+  .flex-gap-10-laptop {
+    gap: 10px;
+  }
+  .flex-gap-15-laptop {
+    gap: 15px;
+  }
+  .flex-gap-20-laptop {
+    gap: 20px;
+  }
+  .flex-gap-25-laptop {
+    gap: 25px;
+  }
+  .flex-gap-30-laptop {
+    gap: 30px;
+  }
+
+  /* Gaps scaled for mobile; divided by 10 */
+  .flex-gap-25 {
+    gap: 25px;
+  }
+  .flex-gap-30 {
+    gap: 30px;
+  }
+}
+
+/* Larger Laptops/Desktops */
+@media (min-width: 1600px) {
+  .flex-flip-col-to-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .flex-flip-row-to-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Flex gaps */
+  .flex-gap-5-desktop {
+    gap: 5px;
+  }
+  .flex-gap-10-desktop {
+    gap: 10px;
+  }
+  .flex-gap-15-desktop {
+    gap: 15px;
+  }
+  .flex-gap-20-desktop {
+    gap: 20px;
+  }
+  .flex-gap-25-desktop {
+    gap: 25px;
+  }
+  .flex-gap-30-desktop {
+    gap: 30px;
+  }
+
+  /* Gaps scaled for mobile; divided by 10 */
+  .flex-gap-25 {
+    gap: 25px;
+  }
+  .flex-gap-30 {
+    gap: 30px;
+  }
+}

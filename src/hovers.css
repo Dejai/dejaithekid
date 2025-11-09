@@ -1,0 +1,36 @@
+/* Hover style */
+.hover-scale-1:hover {
+  transform: scale(1.01);
+}
+.hover-scale-2:hover {
+  transform: scale(1.02);
+}
+.hover-scale-3:hover {
+  transform: scale(1.03);
+}
+.hover-scale-4:hover {
+  transform: scale(1.04);
+}
+.hover-scale-5:hover {
+  transform: scale(1.05);
+}
+
+/* Larger Laptops/Desktops */
+@media (min-width: 1600px) {
+  /* Hover style */
+  .hover-scale-1:hover {
+    transform: scale(1.01);
+  }
+  .hover-scale-2:hover {
+    transform: scale(1.02);
+  }
+  .hover-scale-3:hover {
+    transform: scale(1.03);
+  }
+  .hover-scale-4:hover {
+    transform: scale(1.04);
+  }
+  .hover-scale-5:hover {
+    transform: scale(1.05);
+  }
+}

@@ -1,0 +1,359 @@
+/* Width/height Dimensions */
+.width-200 {
+  width: 200%;
+}
+.width-100 {
+  width: 100%;
+}
+.width-99 {
+  width: 99%;
+}
+.width-95 {
+  width: 95%;
+}
+.width-90 {
+  width: 90%;
+}
+.width-80 {
+  width: 80%;
+}
+.width-75 {
+  width: 75%;
+}
+.width-70 {
+  width: 70%;
+}
+.width-60 {
+  width: 60%;
+}
+.width-50 {
+  width: 50%;
+}
+.width-49 {
+  width: 49%;
+}
+.width-45 {
+  width: 45%;
+}
+.width-40 {
+  width: 40%;
+}
+.width-25 {
+  width: 25%;
+}
+.width-20 {
+  width: 20%;
+}
+.width-15 {
+  width: 15%;
+}
+.width-10 {
+  width: 10%;
+}
+
+/* Min-widths */
+.min-width-100 {
+  min-width: 100%;
+}
+.min-width-90 {
+  min-width: 90%;
+}
+.min-width-80 {
+  min-width: 80%;
+}
+.min-width-75 {
+  min-width: 75%;
+}
+.min-width-70 {
+  min-width: 70%;
+}
+.min-width-60 {
+  min-width: 60%;
+}
+.min-width-50 {
+  min-width: 50%;
+}
+.min-width-49 {
+  min-width: 49%;
+}
+.min-width-45 {
+  min-width: 45%;
+}
+.min-width-40 {
+  min-width: 40%;
+}
+.min-width-25 {
+  min-width: 25%;
+}
+.min-width-20 {
+  min-width: 20%;
+}
+.min-width-10 {
+  min-width: 10%;
+}
+.min-width-0 {
+  min-width: 0;
+}
+
+/* Tablet size */
+@media screen and (min-width: 768px) {
+  .width-90-tablet {
+    width: 90%;
+  }
+  .width-80-tablet {
+    width: 80%;
+  }
+  .width-75-tablet {
+    width: 75%;
+  }
+  .width-70-tablet {
+    width: 70%;
+  }
+  .width-60-tablet {
+    width: 60%;
+  }
+  .width-55-tablet {
+    width: 55%;
+  }
+  .width-60-tablet {
+    width: 60%;
+  }
+  .width-50-tablet {
+    width: 50%;
+  }
+  .width-40-tablet {
+    width: 40%;
+  }
+  .width-35-tablet {
+    width: 35%;
+  }
+  .width-30-tablet {
+    width: 30%;
+  }
+  .width-25-tablet {
+    width: 25%;
+  }
+  .width-20-tablet {
+    width: 20%;
+  }
+  .width-10-tablet {
+    width: 10%;
+  }
+
+  /* Min-widths */
+  .min-width-100-tablet {
+    min-width: 100%;
+  }
+  .min-width-90-tablet {
+    min-width: 90%;
+  }
+  .min-width-80-tablet {
+    min-width: 80%;
+  }
+  .min-width-75-tablet {
+    min-width: 75%;
+  }
+  .min-width-70-tablet {
+    min-width: 70%;
+  }
+  .min-width-60-tablet {
+    min-width: 60%;
+  }
+  .min-width-50-tablet {
+    min-width: 50%;
+  }
+  .min-width-49-tablet {
+    min-width: 49%;
+  }
+  .min-width-45-tablet {
+    min-width: 45%;
+  }
+  .min-width-40-tablet {
+    min-width: 40%;
+  }
+  .min-width-25-tablet {
+    min-width: 25%;
+  }
+  .min-width-20-tablet {
+    min-width: 20%;
+  }
+  .min-width-10-tablet {
+    min-width: 10%;
+  }
+}
+
+/* Laptops */
+@media (min-width: 1024px) {
+  /* Width dimensions meant for laptop (shrink a little when the screen is this big) */
+  .width-90-laptop {
+    width: 90%;
+  }
+  .width-80-laptop {
+    width: 80%;
+  }
+  .width-75-laptop {
+    width: 75%;
+  }
+  .width-70-laptop {
+    width: 70%;
+  }
+  .width-60-laptop {
+    width: 60%;
+  }
+  .width-55-laptop {
+    width: 55%;
+  }
+  .width-60-laptop {
+    width: 60%;
+  }
+  .width-50-laptop {
+    width: 50%;
+  }
+  .width-40-laptop {
+    width: 40%;
+  }
+  .width-30-laptop {
+    width: 30%;
+  }
+  .width-25-laptop {
+    width: 25%;
+  }
+  .width-20-laptop {
+    width: 20%;
+  }
+  .width-10-laptop {
+    width: 10%;
+  }
+
+  /* Min-widths */
+  .min-width-100-laptop {
+    min-width: 100%;
+  }
+  .min-width-90-laptop {
+    min-width: 90%;
+  }
+  .min-width-80-laptop {
+    min-width: 80%;
+  }
+  .min-width-75-laptop {
+    min-width: 75%;
+  }
+  .min-width-70-laptop {
+    min-width: 70%;
+  }
+  .min-width-60-laptop {
+    min-width: 60%;
+  }
+  .min-width-60-laptop {
+    min-width: 60%;
+  }
+  .min-width-50-laptop {
+    min-width: 50%;
+  }
+  .min-width-49-laptop {
+    min-width: 49%;
+  }
+  .min-width-45-laptop {
+    min-width: 45%;
+  }
+  .min-width-40-laptop {
+    min-width: 40%;
+  }
+  .min-width-25-laptop {
+    min-width: 25%;
+  }
+  .min-width-20-laptop {
+    min-width: 20%;
+  }
+  .min-width-10-laptop {
+    min-width: 10%;
+  }
+}
+
+/* Larger Laptops/Desktops */
+@media (min-width: 1600px) {
+  /* Width dimensions meant for desktop (shrink a little when the screen is this big) */
+  .width-90-desktop {
+    width: 90%;
+  }
+  .width-80-desktop {
+    width: 80%;
+  }
+  .width-75-desktop {
+    width: 75%;
+  }
+  .width-70-desktop {
+    width: 70%;
+  }
+  .width-60-desktop {
+    width: 60%;
+  }
+  .width-55-desktop {
+    width: 55%;
+  }
+  .width-60-desktop {
+    width: 60%;
+  }
+  .width-50-desktop {
+    width: 50%;
+  }
+  .width-40-desktop {
+    width: 40%;
+  }
+  .width-30-desktop {
+    width: 30%;
+  }
+  .width-25-desktop {
+    width: 25%;
+  }
+  .width-20-desktop {
+    width: 20%;
+  }
+  .width-15-desktop {
+    width: 15%;
+  }
+  .width-10-desktop {
+    width: 10%;
+  }
+
+  /* Min-widths */
+  .min-width-100-desktop {
+    min-width: 100%;
+  }
+  .min-width-90-desktop {
+    min-width: 90%;
+  }
+  .min-width-80-desktop {
+    min-width: 80%;
+  }
+  .min-width-75-desktop {
+    min-width: 75%;
+  }
+  .min-width-70-desktop {
+    min-width: 70%;
+  }
+  .min-width-60-desktop {
+    min-width: 60%;
+  }
+  .min-width-50-desktop {
+    min-width: 50%;
+  }
+  .min-width-49-desktop {
+    min-width: 49%;
+  }
+  .min-width-45-desktop {
+    min-width: 45%;
+  }
+  .min-width-40-desktop {
+    min-width: 40%;
+  }
+  .min-width-25-desktop {
+    min-width: 25%;
+  }
+  .min-width-20-desktop {
+    min-width: 20%;
+  }
+  .min-width-10-desktop {
+    min-width: 10%;
+  }
+}
